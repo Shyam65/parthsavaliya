@@ -1,0 +1,91 @@
+.intro{
+    background-color : mintcream;
+    margin-top: 30px;
+}
+
+.thumb{
+    position: relative;
+}
+
+.caption{
+    text-align: center;
+    font-family: 'book antiqua';
+}
+
+.caption h1{
+    color: #32373C;
+}
+
+.caption h4{
+    color: #64696E;
+}
+
+.head-quote-div{
+    text-align: center;
+    margin: 100px auto auto auto;
+    font-size: 30px;
+    font-family: "Goudy Old Style";
+}
+
+.photoInfo{
+    margin-top: 150px;
+}
+
+.photoInfo img{
+    width: 100%;
+}
+
+.thumbnail-container{
+    position: relative;
+    width: 100%;
+}
+
+.thumbnail-black-container{
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    transition: .5s ease;
+    opacity: 0;
+    font-family: 'book antiqua';
+}
+
+.thumbnail-black-container:hover{
+  opacity: 1;
+}
+
+.thumbnail-text{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.thumbnail-text span{
+    display: block;
+}
+
+.view-more-link{
+    background: #000000;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    transition: .5s ease;
+    border-radius: 6px;
+}
+
+.view-more-link:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}

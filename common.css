@@ -1,0 +1,64 @@
+.nav a{
+    font-family: "book antiqua";
+    font-size: 15px;
+    color: black;
+}
+
+footer{
+    padding-top: 100px;
+    /* position: absolute; */
+    /* width: 100%; */
+    /* bottom: 0;
+    left: 0; */
+}
+
+.footer-bottom{
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+.footer-info{
+    font-family: 'book antiqua';
+    color: #40454E;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+.footer-info .footer-name{
+    display: block;
+    font-size: 40px;
+}
+
+.footer-info .footer-contact-detail{
+    display: block;
+    font-size: 20px;
+}
+
+.footer-contact-button{
+    margin-top: 20px;
+    padding: 18px 32px;
+    background-color: #40454E;
+    color: white;
+    border-radius: 6px;
+}
+
+.footer-contact-button:hover{
+    opacity: 0.9;
+    color: white;
+}
+
+.footer-social-icon{
+    margin-top: 20px;
+}
+
+.footer-social-icon a:first-of-type{
+    margin-right: 8px;
+}
+
+.footer-social-icon img{
+    cursor: pointer;
+}
